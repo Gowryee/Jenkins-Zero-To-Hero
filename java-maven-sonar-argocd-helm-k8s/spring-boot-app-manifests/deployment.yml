@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: gowryee/ultimate-cicd
+        From: httpd:latest
         ports:
         - containerPort: 8080
